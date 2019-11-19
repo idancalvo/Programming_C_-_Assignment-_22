@@ -1,0 +1,76 @@
+Hello,
+Please enter a command
+your input: "read_mat	MAT_G,	3.2,	8"
+You have an error, Undefined matrix name
+-----------
+
+Please enter a command
+your input: "read_mat	mat_a,	3.2,	-5.3"
+You have an error, Undefined matrix name
+-----------
+
+Please enter a command
+your input: "do_it	MAT_A,	MAT_B,	MAT_C"
+You have an error, Undefined command name
+-----------
+
+Please enter a command
+your input: "add_Mat	MAT_A,	MAT_B,	MAT_C"
+You have an error, Undefined command name
+-----------
+
+Please enter a command
+your input: "read_mat	MAT_A,	abc,	567"
+You have an error, Parameter not a scalar
+-----------
+
+Please enter a command
+your input: "read_mat	MAT_A,	3,	-4.2,	6,	"
+You have an error, Extraneous text after end of command
+-----------
+
+Please enter a command
+your input: "read_mat	MAT_A"
+You have an error, Missing parmeter
+-----------
+
+Please enter a command
+your input: "mul_mat	MAT_B,	MAT_C"
+You have an error, Missing parmeter
+-----------
+
+Please enter a command
+your input: "trans_mat	MAT_B,	MAT_C,	MAT_D"
+You have an error, Extraneous text after end of command
+-----------
+
+Please enter a command
+your input: "PRINT_MAT,	MAT_A"
+You have an error, illegal comma
+-----------
+
+Please enter a command
+your input: "trans_mat	MAT_A	MAT_B"
+You have an error, Missing comma
+-----------
+
+Please enter a command
+your input: "sub_mat	MAT_A,	,	MAT_B,	MAT_C"
+You have an error, Multiple consecutive commas
+-----------
+
+Please enter a command
+your input: "mul_scalar	MAT_A,	MAT_B,	MAT_C"
+You have an error, Parameter not a scalar
+-----------
+
+Please enter a command
+your input: "stop	now"
+You have an error, Extraneous text after end of command
+-----------
+
+Please enter a command
+your input: "stop"
+Command: "stop" succeeded 
+-----------
+
